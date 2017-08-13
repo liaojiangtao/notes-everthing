@@ -1,15 +1,14 @@
-# 安装Atom
+
+# 安装Atom {ignore=true}
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 <!-- code_chunk_output -->
 
-* [安装Atom](#安装atom)
-	* [安装环境](#安装环境)
-	* [安装步骤](#安装步骤)
-		* [安装Atom](#安装atom-1)
-		* [安装packages方法](#安装packages方法)
-		* [安装以下packages](#安装以下packages)
-	* [返回首页](#返回首页readmemd)
+* [安装环境](#安装环境)
+* [安装步骤](#安装步骤)
+	* [安装Atom](#安装atom-1)
+	* [安装packages方法](#安装packages方法)
+	* [安装以下packages](#安装以下packages)
 
 <!-- /code_chunk_output -->
 
@@ -61,4 +60,4 @@
 
 
 
-## [返回首页](/readme.md)
+[返回](./readme.md)

@@ -1,16 +1,21 @@
 
+---
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 <!-- code_chunk_output -->
 
+* [安装](#安装)
 * [常用命令](#常用命令)
 * [常用组合操作](#常用组合操作)
 	* [从命令行创建一个新的仓库](#从命令行创建一个新的仓库)
 	* [从命令行推送已经创建的仓库](#从命令行推送已经创建的仓库)
 
 <!-- /code_chunk_output -->
+---
+# 安装
+[官网](https://git-scm.com/downloads)下载安装。如果是在windows下安装，请选择安装LINUX命令，这将对你以后的研发很有帮助。
+![](assets/markdown-img-paste-20170813103947623.png)
 
 # 常用命令
-<hr>
 
 |                命令                 |           说明           |
 | ----------------------------------- | ------------------------ |
@@ -32,11 +37,11 @@
 | git branch  ***                     | 新建分支                 |
 | git checkout ***                    | 切换分支                 |
 | git status                          | 查看状态                 |
-| git log                             | 查看提交修改记录         | 
+| git log                             | 查看提交修改记录         |
 
 
 #常用组合操作
-<hr>
+
 ## 从命令行创建一个新的仓库
 touch README.md
 git init
