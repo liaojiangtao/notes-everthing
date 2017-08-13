@@ -8,6 +8,7 @@
 * [常用组合操作](#常用组合操作)
 	* [从命令行创建一个新的仓库](#从命令行创建一个新的仓库)
 	* [从命令行推送已经创建的仓库](#从命令行推送已经创建的仓库)
+	* [发布版本](#发布版本)
 
 <!-- /code_chunk_output -->
 ---
@@ -53,3 +54,25 @@ git push -u origin master
 ## 从命令行推送已经创建的仓库
 git remote add origin https://try.gogs.io/qiujiahongd/test.git
 git push -u origin master
+
+
+## 发布版本
+* 查看tag
+ ```
+ git tag
+ ```
+* 新建tag
+ >git tag [tagname] -m "[comment]"
+ ```
+ git tag v1.0.1 -m "发布1.0.1版本"
+ ```
+* 提交tag
+>git push origin [tagname]
+```
+git push origin v1.0.1
+```
+
+效果演示：
+![](assets/markdown-img-paste-20170813182318179.png)
+
+[返回](/readme.md)
