@@ -8,7 +8,7 @@
 	* [安装步骤](#安装步骤)
 		* [安装Atom](#安装atom-1)
 		* [安装packages方法](#安装packages方法)
-		* [使用上一章办法安装以下packages](#使用上一章办法安装以下packages)
+		* [安装以下packages](#安装以下packages)
 	* [返回首页](#返回首页readmemd)
 
 <!-- /code_chunk_output -->
@@ -49,7 +49,7 @@
   * 重启atom 安装成功
 
 
-### 使用上一章办法安装以下packages
+### 安装以下packages
  我们安装的常用packages如下：
 
 |           包名            |                          下载地址                          |
