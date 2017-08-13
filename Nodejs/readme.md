@@ -4,9 +4,9 @@
 # 目录
 
 * [Nodejs](nodejs.md)
-  * [安装](insall.md)
+  * [安装](install.md)
 * [Angularjs](angularjs.md)
   * [Angularjs开发环境](Angularjs_development_ev.md)
 
 
-## [返回首页](/readme.md)
+[返回首页](/readme.md)
