@@ -1,18 +1,24 @@
-
-# 安装Atom {ignore=true}
+# atom的安装和使用 {ignore = true}
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 <!-- code_chunk_output -->
 
-* [安装环境](#安装环境)
-* [安装步骤](#安装步骤)
-	* [安装Atom](#安装atom-1)
-	* [安装packages方法](#安装packages方法)
-	* [安装以下packages](#安装以下packages)
+* [前言](#前言)
+* [安装](#安装)
+	* [安装环境](#安装环境)
+	* [安装步骤](#安装步骤)
+		* [安装Atom](#安装atom)
+		* [安装packages方法](#安装packages方法)
+		* [安装以下packages](#安装以下packages)
+* [快捷键](#快捷键)
 
 <!-- /code_chunk_output -->
 
 
+# 前言
+Atom 是github专门为程序员推出的一个跨平台文本编辑器。具有简洁和直观的图形用户界面，并有很多有趣的特点：支持CSS，HTML，JavaScript等网页编程语言。它支持宏，自动完成分屏功能，集成了文件管理器。
+
+# 安装
 ## 安装环境
  * windows 10 64 位
  * 系统已经装好了git工具
@@ -50,15 +56,18 @@
 ### 安装以下packages
  我们安装的常用packages如下：
 
-|           包名            |                          下载地址                          |
-| ------------------------- | ---------------------------------------------------------- |
+| 包名                        | 下载地址                                                       |
+|---------------------------|------------------------------------------------------------|
 | markdown-table-editor     | https://github.com/susisu/markdown-table-editor.git        |
 | atom-pandoc-convert       | https://github.com/josa42/atom-pandoc-convert.git          |
 | markdown-img-paste        | https://github.com/cocoakekeyu/markdown-img-paste.git      |
 | markdown-preview-enhanced | https://github.com/shd101wyy/markdown-preview-enhanced.git |
 
+# 快捷键
+| 命令             | 作用    |
+|----------------|-------|
+| contrl-shift+p | 命令列表  |
+| contrl-,       | IDE设置 |
 
 
-
-
-[返回](./readme.md)
+ [返回](/readme.md)
