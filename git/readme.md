@@ -17,8 +17,11 @@
 ---
 ## 前言
 git：版本管理工具，可以和github配合使用；
+
 gitbook：电子书生成工具；
+
 calibre：PDF格式电子书转换需要；
+
 本文介绍上面三个软件的安装和使用。
 ## 安装软件 
 * [官网](https://git-scm.com/downloads)下载安装。如果是在windows下安装，请选择安装LINUX命令，这将对你以后的研发很有帮助。
