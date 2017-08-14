@@ -9,12 +9,20 @@
 	* [从命令行创建一个新的仓库](#从命令行创建一个新的仓库)
 	* [从命令行推送已经创建的仓库](#从命令行推送已经创建的仓库)
 	* [发布版本](#发布版本)
+	* [电子书](#电子书)
 
 <!-- /code_chunk_output -->
 ---
 # 安装
-[官网](https://git-scm.com/downloads)下载安装。如果是在windows下安装，请选择安装LINUX命令，这将对你以后的研发很有帮助。
+1. [官网](https://git-scm.com/downloads)下载安装。如果是在windows下安装，请选择安装LINUX命令，这将对你以后的研发很有帮助。
 ![](assets/markdown-img-paste-20170813103947623.png)
+1. 安装gitbook
+```
+cnpm install gitbook
+```
+1. 安装calibre
+到[官网](https://calibre-ebook.com/download_windows)下载安装；
+
 
 # 常用命令
 
@@ -38,7 +46,7 @@
 | git branch  ***                     | 新建分支                 |
 | git checkout ***                    | 切换分支                 |
 | git status                          | 查看状态                 |
-| git log                             | 查看提交修改记录         |
+| git log                             | 查看提交修改记录         |	
 
 
 #常用组合操作
@@ -48,11 +56,11 @@ touch README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://try.gogs.io/qiujiahongd/test.git
+git remote add origin https://try.gogs.io/****/test.git
 git push -u origin master
 
 ## 从命令行推送已经创建的仓库
-git remote add origin https://try.gogs.io/qiujiahongd/test.git
+git remote add origin https://try.gogs.io/****/test.git
 git push -u origin master
 
 
@@ -66,6 +74,7 @@ git push -u origin master
  ```
  git tag v1.0.1 -m "发布1.0.1版本"
  ```
+
 * 提交tag
 >git push origin [tagname]
 ```
@@ -74,5 +83,20 @@ git push origin v1.0.1
 
 效果演示：
 ![](assets/markdown-img-paste-20170813182318179.png)
+
+## 电子书
+* 初始化
+```
+gitbook init
+```
+* 生成HTML
+```
+gitbook build
+```
+* 生成PDF
+```
+gitbook pdf
+```
+
 
 [返回](/readme.md)

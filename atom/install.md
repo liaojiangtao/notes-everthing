@@ -47,7 +47,6 @@
   ```
   * 重启atom 安装成功
 
-
 ### 安装以下packages
  我们安装的常用packages如下：
 
@@ -57,6 +56,8 @@
 | atom-pandoc-convert       | https://github.com/josa42/atom-pandoc-convert.git          |
 | markdown-img-paste        | https://github.com/cocoakekeyu/markdown-img-paste.git      |
 | markdown-preview-enhanced | https://github.com/shd101wyy/markdown-preview-enhanced.git |
+
+
 
 
 
