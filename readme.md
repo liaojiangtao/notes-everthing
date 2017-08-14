@@ -1,9 +1,3 @@
----
-ebook:
-  title: 随笔
-  authors: Nickick
----
-
 # 笔记
 
 ## 前言

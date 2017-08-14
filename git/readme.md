@@ -89,6 +89,10 @@ git push origin v1.0.1
 ```
 gitbook init
 ```
+* 浏览器查看
+```
+gitbook serve
+```
 * 生成HTML
 ```
 gitbook build
@@ -97,6 +101,7 @@ gitbook build
 ```
 gitbook pdf
 ```
+
 
 
 [返回](/readme.md)
